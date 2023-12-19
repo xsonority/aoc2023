@@ -1,7 +1,10 @@
 import 'dart:io';
 main() {
   readFile();
-  
+
+  for (var l in readFile()) {
+    
+  }
 }
 
 List<dynamic> readFile() {
